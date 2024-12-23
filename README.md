@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="[https://graph.org/file/a5f6da40168d19a3bedb8.jpg](https://i.ibb.co/2Mx4QrT/6620d9728d6d.jpg)">
+  <img src="https://i.ibb.co/2Mx4QrT/6620d9728d6d.jpg">
 </p>
 <h1 align="center">
   Harshu Filter Bot
