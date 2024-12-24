@@ -756,14 +756,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
             file_id=file_id)
         online = f"{STREAM_LINK if STREAM_LINK else URL}/watch/{AKS.id}?hash={get_hash(AKS)}"
         download = f"{STREAM_LINK if STREAM_LINK else URL}/{AKS.id}?hash={get_hash(AKS)}"
-        btn= [[
-            InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
-            InlineKeyboardButton("ꜰᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download)
-        ],[
-            InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
-        ]]
-        await query.edit_message_reply_markup(
-            reply_markup=InlineKeyboardMarkup(btn)
+       # btn= [[
+         #   InlineKeyboardButton("ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ", url=online),
+           # InlineKeyboardButton("ꜰᴀsᴛ ᴅᴏᴡɴʟᴏᴀᴅ", url=download)
+       # ],[
+            #InlineKeyboardButton('❌ ᴄʟᴏsᴇ ❌', callback_data='close_data')
+       # ]]
+       # await query.edit_message_reply_markup(
+        #    reply_markup=InlineKeyboardMarkup(btn)
         )
 
     elif query.data == "buttons":
